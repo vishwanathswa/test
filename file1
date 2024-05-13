@@ -1,4 +1,7 @@
-#! bin/bash
+#!/bin/bash
 
-echo 'Myname is Vishwa'
+num1=10
+num2=5
 
+result=$(expr $num1 + $num2)
+echo "Addition: $result"
